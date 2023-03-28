@@ -1,3 +1,11 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family:
@@ -14,14 +22,51 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(87, 87, 87);
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+#root {
+  height: auto;
+}
+
+.keypads {
+  width: 30%;
+  border: 1px solid #bbb;
+  margin: 12% auto;
+  height: auto;
+}
+
+.keypads p {
+  text-align: end;
+  padding-right: 1rem;
+  padding-top: 1.5rem;
+  padding-bottom: 0.2rem;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: hsl(0, 1%, 65%);
+}
+
+.keypads-btn button {
+  width: 25%;
+  padding: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 1px solid  #ddd;
+  background-color: #fff;
+}
+
+.keypads-btn button:hover {
+  background-color: #ddd;
+}
+
+.keypads-btn button.zero {
+  width: 50%;
+}
+
+.keypads-btn button.bg-orange {
+  background-color: rgb(255, 174, 24);
+}
+
+.keypads-btn button.bg-orange:hover {
+  background-color: rgb(246, 192, 92);
 }
