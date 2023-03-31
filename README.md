@@ -85,23 +85,13 @@ In this first project of the Math Magicians application. I set up the environmen
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- TO DO LIST TASK SCREENSHOT -->
-
-## 🚀 Screenshot <a name="screenshot"></a>
-
-N/A
-
-## 💻 Loom Presentation Video <a name="loom-video"></a>
-
-- not available yet.
-
-<!-- LIVE DEMO -->
+<!-- LIVE DEMO
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Coming Soon ...](N/A)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- GETTING STARTED -->
 
@@ -133,27 +123,28 @@ Install this project with:
 ```sh
 npx create-react-app my-app
 cd my-app
-npm start
-npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+npm install 
 ```
+
+### Usage
+
+```sh
+npm start
+```
+
 ### Run tests
 
 To run tests, run the following command:
 
-To check Styelint error:-
 ```sh
-npx stylelint "**/*.{css,scss}"
+npx test
 ```
-To check Eslint error:-
-```sh
-npx eslint "**/*.{js,jsx}"
-```
+
 ### Deployment
 
 You can deploy this project using:
 ```sh
-Github Pages.
+npm run build
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

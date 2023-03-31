@@ -29,10 +29,25 @@ body {
   height: auto;
 }
 
+.calculator-container {
+  width: 70%;
+  margin: 7% auto;
+  display: flex;
+  background-color: rgb(116, 113, 110);
+  padding: 2%;
+}
+
+.calculator-container h2 {
+  color: #fff;
+  width: 50%;
+  height: auto;
+  padding: 4rem;
+}
+
 .keypads {
-  width: 30%;
+  width: 40%;
   border: 1px solid #bbb;
-  margin: 12% auto;
+  margin: 0 auto;
   height: auto;
 }
 
@@ -69,4 +84,58 @@ body {
 
 .keypads-btn button.bg-orange:hover {
   background-color: rgb(246, 192, 92);
+}
+
+.homeContainer {
+  /* background-color: #d3d0d0; */
+  background-color: #706f6f;
+  color: #fff;
+  width: 80%;
+  margin: 8% auto;
+  padding: 4rem;
+}
+
+.homeContainer h1 {
+  margin-bottom: 2rem;
+}
+
+.homeContainer p {
+  width: 90%;
+  margin-left: 2rem;
+  text-align: justify;
+  line-height: 1.4rem;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+.navBar h1 {
+  margin-left: 2rem;
+}
+
+.navBar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.quote {
+  background-color: #838080;
+  color: #fff;
+  width: 80%;
+  margin: 8% auto;
+  padding: 2rem;
+}
+
+.quote p {
+  text-align: justify;
+  line-height: 1.4rem;
+  font-weight: 800;
+  font-style: italic;
 }
