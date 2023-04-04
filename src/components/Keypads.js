@@ -14,7 +14,7 @@ const Keypads = ({ handleClick, state }) => {
           {next}
         </p>
         <div className="keypads-btn">
-          <button onClick={(e) => handleClick(e)} type="button">
+          <button onClick={handleClick} type="button">
             AC
           </button>
           <button onClick={(e) => handleClick(e)} type="button">
