@@ -85,13 +85,13 @@ In this first project of the Math Magicians application. I set up the environmen
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO
+ <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Coming Soon ...](N/A)
+- [Live Demo](https://math-magician-yidnekachew-cmd.onrender.com)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 <!-- GETTING STARTED -->
 
