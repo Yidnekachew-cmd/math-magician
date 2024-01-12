@@ -85,13 +85,19 @@ In this first project of the Math Magicians application. I set up the environmen
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- TO DO LIST TASK SCREENSHOT -->
+
+## 🚀 Screenshot <a name="screenshot"></a>
+
+(![image](mobile.png))
+
  <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+<!-- ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo](https://math-magician-yidnekachew-cmd.onrender.com)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>  -->
 
 <!-- GETTING STARTED -->
 
