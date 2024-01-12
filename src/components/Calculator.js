@@ -15,7 +15,7 @@ const Calculator = () => {
     setState(newState);
   };
   return (
-    <div>
+    <div className="bg-calculator-bg h-screen bg-fill bg-right-top md:bg-center  lg:bg-cover w-full bg-no-repeat absolute top-0">
 
       <Keypads handleClick={handleButtonClick} state={state} />
     </div>
