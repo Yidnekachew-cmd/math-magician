@@ -2,16 +2,16 @@ import PropTypes from 'prop-types';
 import atitude from '../assets/atitude.png';
 
 const Quotes = ({ text, isLoading, error }) => (
-  <div className="bg-quote-bg h-screen bg-fill bg-left-bottom md:bg-left-top md:bg-cover lg:bg-center w-full bg-no-repeat absolute top-0">
+  <div className="bg-quote-bg h-[100svh] bg-fill bg-left-bottom md:bg-left-top md:bg-cover lg:bg-center w-full bg-no-repeat absolute top-0">
     {isLoading && <h2 className="absolute top-[25%] left-[10%] lg:left-12  w-[80%] rounded-3xl bg-[#29A8FF] bg-opacity-40 lg:w-[35%] md:top-[35%] p-6 md:p-12 lg:top-[33%]  h-auto text-lg md:text-2xl   border-[rgb(0,93,178)] border-8 shadow-xl text-white text-justify">Loading...</h2>}
     {error && <h2>{error}</h2>}
     { text && (
-      <div className="absolute top-[25%] left-[10%] lg:left-12  w-[80%] rounded-3xl bg-[#29A8FF] bg-opacity-40 lg:w-[35%] md:top-[35%] p-6 md:p-12 lg:top-[33%]  h-auto text-lg md:text-2xl   border-[rgb(0,93,178)] border-8 shadow-xl text-white text-justify">
+      <div className="absolute top-[25%] left-[10%] lg:left-12  w-[80%] rounded-3xl bg-[#29A8FF] bg-opacity-40 lg:w-[35%] md:top-[35%] p-6 md:p-12 lg:top-[33%]  h-auto text-lg md:text-xl   border-[rgb(0,93,178)] border-8 shadow-xl text-white text-justify">
         <p>
           { text.quote }
           {' '}
         </p>
-        <p className="text-center  lg:text-1xl pt-2">
+        <p className="text-center  lg:text-xl pt-2">
           {text.author && ` by ${text.author}`}
         </p>
       </div>

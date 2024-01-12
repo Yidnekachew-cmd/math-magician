@@ -89,15 +89,15 @@ In this first project of the Math Magicians application. I set up the environmen
 
 ## 🚀 Screenshot <a name="screenshot"></a>
 
-(![image](mobile.png))
+![mobile](https://github.com/Yidnekachew-cmd/math-magician/assets/104775335/30a5baab-6baf-47c9-9c4b-8d748c030f67)
 
  <!-- LIVE DEMO -->
 
-<!-- ## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo](https://math-magician-yidnekachew-cmd.onrender.com)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>  -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 <!-- GETTING STARTED -->
 
@@ -162,7 +162,7 @@ npm run build
 
 - GitHub: [@Yidnekachew-cmd](https://github.com/Yidnekachew-cmd)
 - Twitter: [@Yidnekassahun](https://twitter.com/Yidnekassahun)
-- LinkedIn: [@yidne kassahun](https://www.linkedin.com/in/yidnekachew-kassahun-2b817a24b/)
+- LinkedIn: [Yidne kassahun](https://www.linkedin.com/in/yidnekachew-kassahun/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -172,7 +172,6 @@ npm run build
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Adding_full_functionality_to_the_Calculator]**
-- [ ] **[Deploying_the_page_on_github]**
 - [ ] **[Adding_backend_and_databases]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

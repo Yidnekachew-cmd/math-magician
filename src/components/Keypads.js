@@ -6,8 +6,8 @@ const Keypads = ({ handleClick, state }) => {
     <div className="absolute top-[9%] left-[15%] md:left-0 flex justify-between w-[90%]  lg:w-[74%] md:top-[20%] lg:top-[14%]  h-auto">
       {/* md:h-[68svh] */}
       <div className="hidden w-[53%] md:flex pl-10 flex-col pt-32 md:pt-28">
-        <h1 className=" text-4xl md:text-5xl lg:text-4xl   ">The Evolution of Calculators: From Abacus to Smartphone</h1>
-        <p className="  text-xl md:text-2xl  leading-8 pt-6 text-justify">Calculators have a rich history, from ancient abacuses to Blaise Pascal&apos;s mechanical invention. The rise of electronic and handheld calculators led to today&apos;s integration into smartphones and computers, transforming computation for various applications.</p>
+        <h1 className=" text-4xl md:text-5xl lg:text-2xl   ">The Evolution of Calculators: From Abacus to Smartphone</h1>
+        <p className="  text-xl md:text-lg  leading-8 pt-6 text-justify">Calculators have a rich history, from ancient abacuses to Blaise Pascal&apos;s mechanical invention. The rise of electronic and handheld calculators led to today&apos;s integration into smartphones and computers, transforming computation for various applications.</p>
       </div>
       <div className=" rounded-3xl bg-black flex flex-col mt-12 md:mt-0 px-1 py-2 md:px-2 md:py-3 w-[80%] md:w-[40%] lg:w-[30%] h-auto">
         <p className="pb-20 text-white text-2xl md:text-5xl self-end px-2 top-[12%] md:top-[10%] relative">
