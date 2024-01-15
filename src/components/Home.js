@@ -1,11 +1,11 @@
 import '../index.css';
 
 const Home = () => (
-  <div className="bg-home-bg h-[100svh] bg-contain lg:bg-cover lg:bg-center w-full bg-no-repeat absolute top-0">
-    <div className="absolute top-[17%] lg:top-[25%] px-6 md:hidden">
-      <h1 className="w-[50%] pb-1 text-xl">Simplify Your Math!</h1>
+  <div className="bg-home-bg h-screen bg-center  lg:bg-cover lg:bg-center w-full bg-no-repeat absolute top-0">
+    <div className="absolute top-[67%] lg:top-[25%] p-6 mx-auto w-[90%] border-2 bg-white md:border-0 shadow-2xl rounded-3xl bg-opacity-50 left-[6%]  md:hidden">
+      <h1 className="w-[80%] pb-1 text-3xl">Simplify Your Math!</h1>
       {/* eslint-disable-next-line max-len  */}
-      <p className="w-[60%]">Welcome to my calculator app! </p>
+      <p className="w-[100%] text-xl">Welcome to my calculator app! </p>
     </div>
     <div className="hidden absolute  md:top-[14%] px-10 md:block lg:hidden">
       <h1 className="w-[40%] pb-8 text-3xl tracking-wide leading-12">
